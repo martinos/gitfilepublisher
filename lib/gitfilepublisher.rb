@@ -1,0 +1,3 @@
+module Gitfilepublisher
+  # Your code goes here...
+end
