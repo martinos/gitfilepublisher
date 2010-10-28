@@ -1,0 +1,38 @@
+PATH
+  remote: .
+  specs:
+    gitfilepublisher (0.0.1)
+      grit
+      rack
+      rake
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    columnize (0.3.1)
+    diff-lcs (1.1.2)
+    grit (2.3.0)
+      diff-lcs (~> 1.1)
+      mime-types (~> 1.15)
+    linecache (0.43)
+    mime-types (1.16)
+    rack (1.2.1)
+    rake (0.8.7)
+    ruby-debug (0.10.3)
+      columnize (>= 0.1)
+      ruby-debug-base (~> 0.10.3.0)
+    ruby-debug-base (0.10.3)
+      linecache (>= 0.3)
+    shoulda (2.11.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (>= 1.0.0)
+  gitfilepublisher!
+  grit
+  rack
+  rake
+  ruby-debug
+  shoulda
